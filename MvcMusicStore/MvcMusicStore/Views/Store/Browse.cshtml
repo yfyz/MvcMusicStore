@@ -1,0 +1,27 @@
+﻿@model  IEnumerable< Maticsoft.Model.genre>
+
+@{
+    ViewBag.Title = "Browse";
+}
+
+</br>
+<div class="genre">
+  
+@foreach (var item in Model)
+{
+    <h2><em>专辑类型 @item.Name</em></h2>
+    <ul id="album-list">
+     @foreach(var album in item.Albums)
+    {
+         <li>
+             <a href="@Url.Action("Details", new { id=album.AlbumId})">
+                 <img alt="@album.Title" src="@album.AlbumArtUrl" />
+                 <span>@album.Title</span>
+             </a>
+           
+         </li>
+
+     }
+    </ul>
+}
+</div>

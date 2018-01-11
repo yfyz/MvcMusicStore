@@ -1,0 +1,15 @@
+﻿@model IEnumerable<Maticsoft.Model.genre>
+
+@{
+    ViewBag.Title = "商场";
+}
+<h3> 音乐类型</h3>
+<p>分类数量：@Model.Count() </p>
+<ul>
+    @foreach (var genre in Model)
+    {
+      
+        <li>@Html.ActionLink(genre.Name, "Browse", new { genre=genre.Name})</li>
+    }
+</ul>
+

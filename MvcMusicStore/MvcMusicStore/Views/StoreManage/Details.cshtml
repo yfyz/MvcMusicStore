@@ -1,0 +1,51 @@
+﻿@model Maticsoft.Model.album
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>album</legend>
+
+    <div class="display-label">GenreId</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.GenreId)
+    </div>
+
+       <div class="display-label">genrename</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.genrename)
+    </div>
+
+    <div class="display-label">ArtistId</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ArtistId)
+    </div>
+
+       <div class="display-label">artistname</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.artistname)
+    </div>
+
+    <div class="display-label">Title</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Title)
+    </div>
+
+    <div class="display-label">Price</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Price)
+    </div>
+
+    <div class="display-label">AlbumArtUrl</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.AlbumArtUrl)
+    </div>
+
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.AlbumId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

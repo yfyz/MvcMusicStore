@@ -1,0 +1,12 @@
+C:\CodematicDemo\CodematicDemo\DBUtility\bin\Debug\Maticsoft.DBUtility.dll
+C:\CodematicDemo\CodematicDemo\DBUtility\bin\Debug\Maticsoft.DBUtility.pdb
+C:\CodematicDemo\CodematicDemo\DBUtility\bin\Debug\MySql.Data.dll
+C:\CodematicDemo\CodematicDemo\DBUtility\bin\Debug\System.Data.SQLite.DLL
+C:\CodematicDemo\CodematicDemo\DBUtility\obj\Debug\Maticsoft.DBUtility.dll
+C:\CodematicDemo\CodematicDemo\DBUtility\obj\Debug\Maticsoft.DBUtility.pdb
+E:\study\vs2012\MvcMusicStore\MvcMusicStore\DBUtility\bin\Debug\Maticsoft.DBUtility.dll
+E:\study\vs2012\MvcMusicStore\MvcMusicStore\DBUtility\bin\Debug\Maticsoft.DBUtility.pdb
+E:\study\vs2012\MvcMusicStore\MvcMusicStore\DBUtility\bin\Debug\System.Data.SQLite.DLL
+E:\study\vs2012\MvcMusicStore\MvcMusicStore\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache
+E:\study\vs2012\MvcMusicStore\MvcMusicStore\DBUtility\obj\Debug\Maticsoft.DBUtility.dll
+E:\study\vs2012\MvcMusicStore\MvcMusicStore\DBUtility\obj\Debug\Maticsoft.DBUtility.pdb

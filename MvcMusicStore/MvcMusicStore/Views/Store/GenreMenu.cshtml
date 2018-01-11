@@ -1,0 +1,9 @@
+﻿@model IEnumerable<Maticsoft.Model.genre>
+
+<ui id="categories">
+ @foreach (var item in Model)
+ {
+     <li>@Html.ActionLink(item.Name, "Browse", "Store", new { Genre=item.Name},null)</li> 
+ }    
+</ui>
+
